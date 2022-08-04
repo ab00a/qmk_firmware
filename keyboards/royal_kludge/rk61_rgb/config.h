@@ -19,9 +19,9 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0x0C45
-#define PRODUCT_ID      0x024F
-#define DEVICE_VER      0x0001
+#define VENDOR_ID       0x05AC
+#define PRODUCT_ID      0x0256
+#define DEVICE_VER      0x0175
 
 #define MANUFACTURER    Royal Kludge
 #define PRODUCT         RK61 RGB
