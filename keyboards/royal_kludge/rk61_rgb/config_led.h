@@ -20,7 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Backlight configuration
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_KEYPRESSES
-#define RGB_MATRIX_TYPING_HEATMAP_DECREASE_DELAY_MS 30
 #define RGB_MATRIX_LED_PROCESS_LIMIT (DRIVER_LED_TOTAL + 4) / 4
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 255
 #define RGBLIGHT_HUE_STEP 10
@@ -28,6 +27,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
 
+#define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
+
+// Enable all effects
 #define ENABLE_RGB_MATRIX_ALPHAS_MODS
 #define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN
 #define ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
@@ -72,6 +74,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENABLE_RGB_MATRIX_SOLID_SPLASH
 #define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
 
+// Driver config
 #define LED_MATRIX_ROWS 5
 #define LED_MATRIX_ROW_CHANNELS 3
 #define LED_MATRIX_ROWS_HW (LED_MATRIX_ROWS * LED_MATRIX_ROW_CHANNELS)
