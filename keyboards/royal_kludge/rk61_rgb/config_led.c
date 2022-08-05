@@ -15,6 +15,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+// This layout was updated for 62 LEDs on the ISO version of the keyboard
+
 #ifdef RGB_MATRIX_ENABLE
 
 # include "rgb_matrix.h"
@@ -36,13 +38,11 @@ led_config_t g_led_config = {
         {10, 64}, {29, 64}, {49, 64},                                  {107, 64},                       {165, 64}, {185, 64}, {204, 64},            {224, 64},
     },
     {
-        4,4,4,4,4,4,4,4,4,4,
-        4,4,4,4,4,4,4,4,4,4,
-        4,4,4,4,4,4,4,4,4,4,
-        4,4,4,4,4,4,4,4,4,4,
-        4,4,4,4,4,4,4,4,4,4,
-        4,4,4,4,4,4,4,4,4,4,
-        4,4,
+        4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,
+        4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,
+        4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,
+        4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,
+        4,  4,  4,              4,          4,  4,  4,      4,
     }
 };
 
