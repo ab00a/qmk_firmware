@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
 
-#define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
+#define RGB_DISABLE_WHEN_USB_SUSPENDED true // turn off effects when suspended
 
 // Enable all effects
 #define ENABLE_RGB_MATRIX_ALPHAS_MODS
